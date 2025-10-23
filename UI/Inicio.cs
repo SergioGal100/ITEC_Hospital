@@ -17,11 +17,7 @@ namespace UI
 
         string Paciente = "paciente@ITEC.com.bo";
         string PacientePassword = "123456";
-
-        string Administrador = "administrador@ITEC.com.bo";
-        string AdministradorPassword = "ad1234";
-
-        
+       
         public Inicio()
         {
             InitializeComponent();

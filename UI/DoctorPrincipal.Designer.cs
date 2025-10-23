@@ -30,7 +30,6 @@
         {
             dataGridView1 = new DataGridView();
             label1 = new Label();
-            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -39,7 +38,7 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Location = new Point(12, 102);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(776, 336);
+            dataGridView1.Size = new Size(1113, 336);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -52,21 +51,11 @@
             label1.TabIndex = 1;
             label1.Text = "Doctor:";
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(26, 58);
-            label2.Name = "label2";
-            label2.Size = new Size(55, 15);
-            label2.TabIndex = 2;
-            label2.Text = "Paciente:";
-            // 
             // DoctorPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label2);
+            ClientSize = new Size(1137, 450);
             Controls.Add(label1);
             Controls.Add(dataGridView1);
             Name = "DoctorPrincipal";
@@ -80,6 +69,5 @@
 
         private DataGridView dataGridView1;
         private Label label1;
-        private Label label2;
     }
 }
